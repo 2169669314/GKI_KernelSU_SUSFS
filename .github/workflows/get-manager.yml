@@ -121,7 +121,7 @@ jobs:
             KSUM="manager"
           elif [ "${{ inputs.kernelsu_variant }}" == "Official" ]; then
             echo "KSU..."
-            REPO="2169669314/KernelSU"
+            REPO="tiann/KernelSU"
             KSUM="manager"
           fi
 

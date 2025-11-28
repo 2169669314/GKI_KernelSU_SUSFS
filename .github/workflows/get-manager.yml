@@ -71,7 +71,7 @@ jobs:
             git clone https://github.com/SukiSU-Ultra/SukiSU-Ultra.git KernelSU
           elif [ "${{ inputs.kernelsu_variant }}" == "Official" ]; then
             echo "This is the Official"
-            git clone https://github.com/2169669314/KernelSU.git KernelSU
+            git clone https://github.com/tiann/KernelSU.git KernelSU
           elif [ "${{ inputs.kernelsu_variant }}" == "MKSU" ]; then
             echo "This is the Official"
             git clone https://github.com/5ec1cff/KernelSU.git KernelSU    
